@@ -1,7 +1,11 @@
 function setup() {
-  // put setup code here
+  createCanvas(870, 600);
 }
 
 function draw() {
-  // put drawing code here
+  background(0);
+  arc(mouseX, mouseY, 100, 110, QUARTER_PI, PI+HALF_PI+QUARTER_PI);
+  fill(255, 102, 102);
+  strokeWeight(20);
+  
 }
